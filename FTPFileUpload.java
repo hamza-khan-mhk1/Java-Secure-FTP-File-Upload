@@ -18,12 +18,9 @@ public class FTPFileUpload{
 	static    int PORT 	= ;
 	static  String USER 	= "";
 	static  String PASS 	= "";
-
-
+	
 	public static void uploadFile() {
-
 		try {
-
 			JSch jsch = new JSch();
 			Session session = jsch.getSession( USER, SERVER, PORT);
 
